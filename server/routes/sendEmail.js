@@ -31,7 +31,7 @@ transporter.verify((error, success) => {
       contact: ${req.body.email}
 
       message: ${req.body.message}`,
-			html: '<b>Hello world?</b>'
+			html: `${req.body.message}`
 		};
 
 		transporter.sendMail(mail, (err, data) => {
