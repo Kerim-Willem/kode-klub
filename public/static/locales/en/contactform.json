@@ -1,0 +1,13 @@
+{
+  "contact": "Contact Us",
+  "subheader": "We carefully read and answer to all our emails.",
+  "name": "Full Name*",
+  "namerequired": "Full name is required",
+  "email": "E-mail*",
+  "emailrequired": "Email is required",
+  "emailvalid": "Email is not a valid email",
+  "message": "Message*",
+  "messagerequired": "Message is required",
+  "fields": "Fields that are marked with * sign are required.",
+  "send": "SEND"
+}

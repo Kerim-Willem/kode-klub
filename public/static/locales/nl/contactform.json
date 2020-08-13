@@ -1,0 +1,13 @@
+{
+  "contact": "Neem contact op",
+  "subheader": "Wij lezen en reageren op al onze emails",
+  "name": "Volledige naam*",
+  "namerequired": "Naam is verplicht",
+  "email": "E-mail*",
+  "emailrequired": "Email is verplicht",
+  "emailvalid": "Email is niet geldig",
+  "message": "Bericht*",
+  "messagerequired": "Bericht is verplicht",
+  "fields": "Velden met een * teken zijn verplicht.",
+  "send": "VERSTUUR"
+}
