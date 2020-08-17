@@ -1,1 +1,0 @@
-{"ast":null,"code":"export { default } from './SnackBar';","map":{"version":3,"sources":["/Users/kerimfathallah/Desktop/kode-klub/src/components/ContactForm/snackbar/index.js"],"names":["default"],"mappings":"AAAA,SAASA,OAAT,QAAwB,YAAxB","sourcesContent":["export { default } from './SnackBar';"]},"metadata":{},"sourceType":"module"}
