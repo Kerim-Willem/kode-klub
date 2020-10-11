@@ -3,7 +3,7 @@
 .env.build
 
 node_modules/
-
+`.next` 
 .next
 
 src/public/bundle.js
