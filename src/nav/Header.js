@@ -170,7 +170,7 @@ const Header = ({ t }, props) => {
 				onOpen={() => setOpenDrawer(true)}>
 				<div className={classes.toolbarMargin} />
 				<List disablePadding className={classes.buttonMenu}>
-					<ListItem button component={Link} href="/#" color="black">
+					<ListItem button  >
 						<LinkScroll
 							className={classes.button}
 							activeClass="active"
@@ -182,7 +182,7 @@ const Header = ({ t }, props) => {
 							{t('button1')}
 						</LinkScroll>
 					</ListItem>
-					<ListItem button component={Link} href="/#" color="black">
+					<ListItem button  >
 						<LinkScroll
 							className={classes.button}
 							activeClass="active"

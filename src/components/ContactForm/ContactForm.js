@@ -1,6 +1,7 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import { Typography, Grid, Button, TextField } from '@material-ui/core';
+import { Typography, Grid, Button, TextField, Snackbar } from '@material-ui/core';
+import MuiAlert from '@material-ui/lab/Alert';
 import validate from 'validate.js';
 import { withTranslation } from '../../i18n';
 import {useRouter} from 'next/router'
@@ -34,9 +35,25 @@ const schema = {
 	}
 };
 
+function Alert(props) {
+	return <MuiAlert elevation={6} variant="filled" {...props} />;
+  }
 
 const ContactForm = ({ t }) => {
 	const classes = useStyles();
+	const [open, setOpen] = React.useState(false);
+
+	const handleClick = () => {
+		setOpen(true);
+	  };
+	
+	  const handleClose = (event, reason) => {
+		if (reason === 'clickaway') {
+		  return;
+		}
+	
+		setOpen(false);
+	  };
 
 	const [formState, setFormState] = React.useState({
 		isValid: false,
@@ -75,36 +92,37 @@ const ContactForm = ({ t }) => {
 	};
 
 	const submitHandler = (event) => {
-		const router = useRouter()
+		
 
 		event.preventDefault();
-		console.log(formState.values);
-
 		const { fullname, email, message } = formState.values;
+		
 
 		axios
-			.post('/sendmail', {
+			.post('/api/nodemailer', {
 				fullname,
 				email,
 				message
 			})
 			.then((response) => {
-				console.log(response);
-				router.push('/')
+				handleClick()
+	
+
 				
 			})
 			.catch((error) => {
 				console.log(error);
 			});
-		
 			
+							
+
 	};
 
 	const hasError = (field) =>
 		formState.touched[field] && formState.errors[field] ? true : false;
 
 	return (
-		<div className={classes.root}>
+		<Grid className={classes.root}>
 			<form onSubmit={submitHandler} >
 				<input type="hidden" name="form-name" />
 				<Grid container spacing={2}>
@@ -181,9 +199,16 @@ const ContactForm = ({ t }) => {
 							{t('send')}
 						</Button>
 					</Grid>
+						<Grid>
+						<Snackbar open={open} autoHideDuration={6000} onClose={handleClose}>
+			<Alert onClose={handleClose} severity="success">
+			 {t('success')}
+			</Alert>
+		  </Snackbar>
+						</Grid>
 				</Grid>
 			</form>
-		</div>
+		</Grid>
 	);
 };
 

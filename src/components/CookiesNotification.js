@@ -56,15 +56,15 @@ function CookiesNotification({ t }) {
 		<Portal>
 			<div className={classes.root}>
 				<Typography variant="body1" color="inherit">
-					{t('text')}{' '}
-					<Link
+					{t('text')}
+					{/* <Link
 						component="a"
 						color="inherit"
 						underline="always"
 						href="https://devias.io/privacy-policy"
 						target="_blank">
 						{t('privacy')}
-					</Link>
+					</Link> */}
 					.
 				</Typography>
 				<Box mt={2} display="flex" justifyContent="flex-end">
