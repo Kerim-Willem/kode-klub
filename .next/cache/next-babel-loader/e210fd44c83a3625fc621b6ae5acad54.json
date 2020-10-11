@@ -1,1 +1,0 @@
-{"ast":null,"code":"export { default } from './WhatWeDo';","map":{"version":3,"sources":["/Users/kerimfathallah/Desktop/kode-klub/src/components/WhatWeDo/index.js"],"names":["default"],"mappings":"AAAA,SAASA,OAAT,QAAwB,YAAxB","sourcesContent":["export { default } from './WhatWeDo';\n"]},"metadata":{},"sourceType":"module"}
