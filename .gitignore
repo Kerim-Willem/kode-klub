@@ -1,4 +1,9 @@
-/node_modules
-/.next
+
+.env
+.env.build
+
+node_modules/
+
 .next
+
 src/public/bundle.js
