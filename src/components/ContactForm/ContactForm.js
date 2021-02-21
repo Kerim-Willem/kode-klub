@@ -99,7 +99,7 @@ const ContactForm = ({ t }) => {
 		
 
 		axios
-			.post('/api/nodemailer', {
+			.post('/api/sendmail', {
 				fullname,
 				email,
 				message

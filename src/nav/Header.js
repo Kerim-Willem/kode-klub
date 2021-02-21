@@ -45,7 +45,7 @@ const useStyles = makeStyles((theme) => ({
 	},
 	logo: {
 		marginLeft: '1rem',
-		maxWidth: '8rem'
+		minWidth: '10rem'
 	},
 	logoContainer: {
 		padding: 0,

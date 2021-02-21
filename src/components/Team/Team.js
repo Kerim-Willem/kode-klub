@@ -207,7 +207,8 @@ const Team = (props) => {
 						<SectionHeader
 							label="Jaap Westerop"
 							titleVariant="h5"
-							title='Back-End'
+							title='Back-End, Web, Mobile'
+			
 						/>
 						<Grid item container justify="center">
 							<Avatar
@@ -220,8 +221,8 @@ const Team = (props) => {
 
 						<SectionHeader
 							title=""
-							className={classes.GridViewJaap}
-							subtitle='C, C++, Web'
+							className={classes.GridView}
+							subtitle='C++, Javascript, PHP, Flutter'
 							// ctaGroup={[
 								
 							// 	<IconButton
@@ -243,6 +244,15 @@ const Team = (props) => {
 							// 		<LinkedInIcon />
 							// 	</IconButton>
 							// ]}
+							ctaGroup={[
+								
+								<IconButton
+									href='https://www.linkedin.com/in/jaapwesterop/'
+									variant="outlined"
+									color="secondary">
+									<LinkedInIcon />
+								</IconButton>
+							]}
 							disableGutter
 						/>
 					</Grid>
@@ -290,7 +300,7 @@ const Team = (props) => {
 				</Grid>
 				<Grid
 					item
-					subtitle='Front-End'
+					subtitle='Back-End'
 					container
 					alignItems="center"
 					direction="column"
