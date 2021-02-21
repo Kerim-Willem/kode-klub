@@ -364,7 +364,7 @@ const Team = (props) => {
 						<SectionHeader
 							label="Kerim Fathallah"
 							titleVariant="h5"
-							title='Front End, Marketing'
+							title='Front-End, Marketing'
 						/>
 						<Grid item container justify="center">
 							<Avatar
