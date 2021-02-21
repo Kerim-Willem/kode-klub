@@ -207,7 +207,7 @@ const Team = (props) => {
 						<SectionHeader
 							label="Jaap Westerop"
 							titleVariant="h5"
-							title='Back-End, Web, Mobile'
+							title='Architect, Back-End, Web, Mobile'
 			
 						/>
 						<Grid item container justify="center">
