@@ -91,7 +91,7 @@ const ContactForm = ({ t }) => {
 		}));
 	};
 
-	const submitHandler = (event) => {
+	const submitHandler = (event) => { 
 		
 
 		event.preventDefault();
