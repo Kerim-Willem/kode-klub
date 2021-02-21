@@ -7,7 +7,7 @@ export const whatwedo = [
 	{
 		icon: 'fas fa-laptop-code',
 		title: 'Front-End',
-		subtitle: 'React, Nextjs, Angular, Svelte, Mobile'
+		subtitle: 'React, Nextjs, Angular, Svelte'
 	},
 	{
 		icon: 'fas fa-palette',
