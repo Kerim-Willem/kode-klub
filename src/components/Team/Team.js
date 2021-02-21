@@ -311,7 +311,7 @@ const Team = (props) => {
 						<SectionHeader
 							label="Gabor Baeten"
 							titleVariant="h5"
-							title='Front-End'
+							title='Back-End'
 						/>
 						<Grid item container justify="center">
 							<Avatar

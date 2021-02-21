@@ -36,7 +36,7 @@ function CookiesNotification({ t }) {
 	const [open, setOpen] = useState(false);
 
 	const handleClose = () => {
-		Cookies.set('consent', 'true');
+		Cookies.set('consent', 'true' , { expires: 365 });
 		setOpen(false);
 	};
 
