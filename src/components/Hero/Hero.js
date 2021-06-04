@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import clsx from 'clsx';
-import { makeStyles } from '@material-ui/core/styles';
+import { makeStyles, Grid } from '@material-ui/core';
 import TypedText from '../../utils/TypedText';
 import SectionHeader from '../../utils/SectionHeader';
 import ContactBarButton from '../ContactBarButton';
@@ -72,7 +72,11 @@ const Hero = ({ t }, props) => {
 				ctaGroup={[<ContactBarButton />]}
 				disableGutter
 			/>
+			<Grid style={{maxWidth: '80%'}}>
+			</Grid>
+				
 		</div>
+
 	);
 };
 

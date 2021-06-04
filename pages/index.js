@@ -8,6 +8,7 @@ import WhatWeDo from '../src/components/WhatWeDo';
 import Team from '../src/components/Team';
 import WorkFlow from '../src/components/WorkFlow';
 import ContactBar from '../src/components/ContactBar';
+import CompanyList from '../src/components/CompanyList';
 
 import { whatwedo } from '../src/components/data';
 import { team } from '../src/components/data';
@@ -23,7 +24,7 @@ const Index = () => {
 			<WorkFlow />
 			<Team data={team} />
 			<ContactBar />
-
+			<CompanyList />
 			<Footer />
 		</Grid>
 	);

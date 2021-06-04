@@ -51,65 +51,9 @@ const Team = (props) => {
 			<div className={clsx(classes.root, className)} {...rest}>
 				<SectionHeader title={<span>KodeKlub Team</span>} fadeUp />
 				<br></br>
-				{/* <Grid container justify="center" spacing={isMd ? 0 : 3}>
-					{data.map((item, index) => (
-						<Grid
-							key={index}
-							item
-							subtitle={item.description}
-							container
-							alignItems="center"
-							direction="column"
-							xs={12}
-							sm={6}
-							md={4}>
-							<Grid item container xs={12} sm={7} md={12} alignItems="center">
-								<SectionHeader
-									label={item.authorName}
-									titleVariant="h5"
-									title={item.title}
-								/>
-								<Grid item container justify="center">
-									<Avatar
-										{...item.authorPhoto}
-										alt={item.authorName}
-										className={classes.teamAvatar}
-									/>
-								</Grid>
 
-								<SectionHeader
-									title=""
-									className={classes.GridView}
-									subtitle={item.description}
-									ctaGroup={[
-										
-										<IconButton
-											href={item.github}
-											variant="outlined"
-											color="secondary">
-											<GitHubIcon />
-										</IconButton>,
-										// <IconButton
-										// 	href={item.facebook}
-										// 	variant="outlined"
-										// 	color="secondary">
-										// 	<FacebookIcon />
-										// </IconButton>,
-										<IconButton
-											href={item.linkedin}
-											variant="outlined"
-											color="secondary">
-											<LinkedInIcon />
-										</IconButton>
-									]}
-									disableGutter
-								/>
-							</Grid>
-						</Grid>
-					))}
-				</Grid> */}
 
-<Grid container justify="center" spacing={isMd ? 0 : 3}>
+<Grid container spacing={isMd ? 0 : 3}>
 					
 					
 						<Grid

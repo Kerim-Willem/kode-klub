@@ -21,6 +21,59 @@ export const whatwedo = [
 	}
 ];
 
+export const companies = [
+	{
+		img: '/assets/KNMI.png',
+		width: '100%',
+		height: '100%'
+	},
+	{
+		img: '/assets/DATANEXT.png',
+		width: '100%',
+		height: '80%'
+	},
+	{
+		img: '/assets/GEMEENTE_AMS.png',
+		width: '100%',
+		height: '80%'
+	},
+	{
+		img: '/assets/IRDETO.png',
+		width: '100%',
+		height: '80%'
+	},
+	{
+		img: '/assets/KPN.png',
+		width: '100%',
+		height: '70%'
+	},
+	{
+		img: '/assets/MAGZMAKER.png',
+		width: '100%',
+		height: '80%'
+	},
+	{
+		img: '/assets/RESHIFT.png',
+		width: '100%',
+		height: '80%'
+	},
+	{
+		img: '/assets/SCANACAR.png',
+		width: '100%',
+		height: '80%'
+	},
+	{
+		img: '/assets/SURF.png',
+		width: '100%',
+		height: '80%'
+	},
+	{
+		img: '/assets/VERTICLE_TECH.png',
+		width: '100%',
+		height: '70%'
+	},
+]
+
 export const team = [
 	{
 		stephane: {
